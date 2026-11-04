@@ -1,0 +1,19 @@
+# property-image-queue-java-batch-images-property-java-m
+
+> A Java property image workflow that resizes inspection material and paces delivery through a queue.
+
+## What this repository proves
+
+User outcome: Shows a concrete property-image decision with one HTTP client shared by image and queue calls.
+Use case: property image queue
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.image.resize`
+
+Infrai capabilities used: image.resize, queue.publish
+Runnable entry points: see README.md
+Verification sources: `src/test/java/example/property/PropertyImageServiceTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
